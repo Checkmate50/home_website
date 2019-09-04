@@ -9686,8 +9686,9 @@ function setup(render) {
 
   var canvas = canvases[0]; // Set up the interactive pan/rotate/zoom camera.
 
-  var camera = canvas_orbit_camera_1["default"](canvas); // camera.zoom(-31);
-  // Initialize the transformation matrices that are dictated by the camera
+  var camera = canvas_orbit_camera_1["default"](canvas);
+  camera.zoom(-22.5);
+  camera.rotate([0., 0., 0.], [0., -.2, 0.]); // Initialize the transformation matrices that are dictated by the camera
   // and the canvas dimensions.
 
   var projection = gl_matrix_1.mat4.create();
@@ -9794,7 +9795,7 @@ function main() {
 
   var model = gl_matrix_1.mat4.create(); // Position the light source for the lighting effect.
 
-  var light = gl_matrix_1.vec3.fromValues(20., 0., 20.);
+  var light = gl_matrix_1.vec3.fromValues(20., 8., 20.);
 
   function render(view, projection) {
     // Rotate the model a little bit on each frame.
@@ -9844,7 +9845,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50606" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51589" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

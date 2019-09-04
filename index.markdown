@@ -14,11 +14,14 @@ Testing -- this is live?  ?  -->
   <div class="columnlong">
     <canvas width="500px" height="275px" id="c"></canvas>
     <script src="./GatorPhong_files/main.c39d6dcf.js.download"></script>
-    Description is something
-
-    More description?
+    <i>
+    <!-- Whitespace hack cause I'm lazy -->
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    Phong lighting model built in <a href="https://github.com/cucapra/linguine">Gator</a>
+    </i>
   </div>
 </div>
 
 # About
 ---
+I'm Dietrich Geisler, a 3rd year PhD student in Computer Science at Cornell University.  
