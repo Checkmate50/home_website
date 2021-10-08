@@ -24,4 +24,12 @@ Testing -- this is live?  ?  -->
 
 # About
 ---
-I'm Dietrich Geisler, a 3rd year PhD student in Computer Science at Cornell University.  
+I’m Dietrich Geisler, a 5th year PhD student in Computer Science at Cornell University.
+I work with the (Capra research group)[https://capra.cs.cornell.edu/] led by (Adrian Sampson)[https://www.cs.cornell.edu/~asampson/research.html].
+My research goals are focused on the development of (Domain Specific Languages)[https://en.wikipedia.org/wiki/Domain-specific_language], with an emphasis on helping the programmer more easily write readable and correct programs.</p>
+
+My current research is on developing the (Gator)[https://github.com/cucapra/gator] language for geometric programming.
+Gator is designed to help Graphics programmers reason about the geometry of the program through annotations and compiler typechecking.
+The primary contribution of Gator is the introduction of a type structure around *Reference Frames*, an idea rooted in (geometry)[https://en.wikipedia.org/wiki/Frame_of_reference"].
+
+(CV)[cv.pdf]
