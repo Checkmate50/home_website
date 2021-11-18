@@ -5,8 +5,6 @@ date:   2021-11-01 11:52:28 -0400
 categories: mutation testing
 ---
 
-# Send to recursive_error and Lunar
-
 # Overview
 
 This article looks to give the motivation for and theory behind mutation testing.  In particular, I will be discussing how mutation testing works, some theory behind why mutation testing works, some problems with mutation testing (and when to consider using it), and a short selection of applications at the time of this writing.  The intended audience is anyone familiar with some programming ideas, some knowledge of testing, but is written at a level you should need no prior knowledge of mutation testing or related approaches.
