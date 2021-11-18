@@ -21,11 +21,12 @@
 title: Dietrich Geisler
 email: dag368@cornell.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  3rd-year Computer Science PhD student at Cornell University
+  Computer Science PhD student at Cornell University
 baseurl: "/~dgeisler" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.cs.cornell.edu/~dgeisler/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Checkmate54
 github_username:  Checkmate50
+
 
 # Build settings
 theme: minima
