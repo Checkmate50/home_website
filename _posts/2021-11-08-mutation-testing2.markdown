@@ -61,4 +61,4 @@ These two programs are "obviously" equivalent, but as noted, detecting this auto
 
 In the final section of this article, we will examine some practical applications of mutation testing and some of the flaws of mutation testing as an approach.
 
-[part_1](http://127.0.0.1:4000/~dgeisler/mutation/testing/2021/11/01/mutation-testing1.html) part_2 [part_3](http://127.0.0.1:4000/~dgeisler/mutation/testing/2021/11/08/mutation-testing3.html)
+[part_1](/~dgeisler/mutation/testing/2021/11/01/mutation-testing1.html) part_2 [part_3](/~dgeisler/mutation/testing/2021/11/08/mutation-testing3.html)

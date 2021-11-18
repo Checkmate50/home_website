@@ -76,4 +76,4 @@ Throughout this tour of mutation testing, we have explored what mutation testing
 
 I would like to conclude by encouraging readers to explore mutation more through reading the excellent survey papers linked throughout this piece, as well as considering using those real mutation testing tools for practical development and analysis.  So long as we write code, we will need to test this code. Knowing how to better write tests and explore the scope of these tests will help us, as a community, write both better software and better analysis of that software.
 
-[part_1](http://127.0.0.1:4000/~dgeisler/mutation/testing/2021/11/01/mutation-testing1.html) [part_2](http://127.0.0.1:4000/~dgeisler/mutation/testing/2021/11/07/mutation-testing2.html) part_3
+[part_1](/~dgeisler/mutation/testing/2021/11/01/mutation-testing1.html) [part_2](/~dgeisler/mutation/testing/2021/11/07/mutation-testing2.html) part_3

@@ -88,4 +88,4 @@ Unlike these methods, however, mutation testing is focused on the tests themselv
 
 In the next sections, we will evaluate some mutation testing theory as well as some practical applications of mutation testing.
 
-part_1 [part_2](http://127.0.0.1:4000/~dgeisler/mutation/testing/2021/11/07/mutation-testing2.html) [part_3](http://127.0.0.1:4000/~dgeisler/mutation/testing/2021/11/08/mutation-testing3.html)
+part_1 [part_2](/~dgeisler/mutation/testing/2021/11/07/mutation-testing2.html) [part_3](/~dgeisler/mutation/testing/2021/11/08/mutation-testing3.html)
