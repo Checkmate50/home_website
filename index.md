@@ -36,5 +36,3 @@ I was the instructor of record for CS 1110 [Fall 2022](https://classes.cornell.e
 My previous research is primarily on developing the [Gator](https://github.com/cucapra/gator) language for geometric programming.  Our OOPSLA 2020 paper preprint on Gator can be found [here](oopsla2020.pdf).
 Gator is designed to help Graphics programmers reason about the geometry of the program through annotations and compiler typechecking.
 The primary contribution of Gator is the introduction of a type structure around *Reference Frames*, an idea rooted in [geometry](https://en.wikipedia.org/wiki/Frame_of_reference).  I also worked with [Tess](https://tess-factor.com/) on the [Slang graphics language](http://graphics.cs.cmu.edu/projects/slang/).
-
-[CV](cv.pdf)
