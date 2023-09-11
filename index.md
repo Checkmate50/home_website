@@ -31,7 +31,7 @@ My research goals are focused on the development of [Domain Specific Languages](
 
 My current research is on exploring bindings (which are mechanisms to transfer data between two devices) and the language design around improving heterogeneous (multi-device) binding analysis.  In particular, I'm working with Oliver Daids (a third-year PhD) on developing Caiman, a declarative decomposable language semantics for heterogeneous communication and a exploration-focused optimizing compiler. 
 
-I was the instructor of record for CS 1110 [Fall 2022](https://classes.cornell.edu/browse/roster/FA22/class/CS/1110) and [Summer 2022](https://classes.cornell.edu/browse/roster/SU22/class/CS/1110).  I've mentored 12+ undergraduate and high school students since starting my PhD.
+I was the instructor of record for CS 1110 [Fall 2022](https://classes.cornell.edu/browse/roster/FA22/class/CS/1110) and [Summer 2022](https://classes.cornell.edu/browse/roster/SU22/class/CS/1110).
 
 My previous research is primarily on developing the [Gator](https://github.com/cucapra/gator) language for geometric programming.  Our OOPSLA 2020 paper preprint on Gator can be found [here](oopsla2020.pdf).
 Gator is designed to help Graphics programmers reason about the geometry of the program through annotations and compiler typechecking.

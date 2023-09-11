@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Building the Gator Compiler [3/4]"
-date:   2022-4-07 11:52:28 -0400
 categories: gator
 ---
 
