@@ -20,7 +20,33 @@ Before diving into the details of constructing Gator, it is first necessary to u
 scheme<frame>.object
 ```
 
-This syntax will hopefully be familiar to those with object-oriented language experience with one important caveat: both the parameterization *and* the class member of the coordinage scheme are part of the *type*.  This is a bit unusual, and takes some time to get used to -- however, we found this to be the most approachable representation after several syntax attempts.  To state the intuition explicitly: the coordinate scheme is parameterized with a reference frame, the combined elements of which form a class whose member is a geometric object.  With this construction, the geometric object can be thought of as providing the concrete representation of the type (e.g. a vector is the actual *thing* in Cartesian model space).
+This syntax will hopefully be familiar to those with object-oriented language experience with one important caveat: both the parameterization *and* the class member of the coordinage scheme are part of the *type*.  This is a bit unusual, and takes some time to get used to -- however, we found this to be the most approachable representation after several syntax attempts.  To state the intuition explicitly: the coordinate scheme is parameterized with a reference frame, the combined elements of which form a class whose member is a geometric object.
+
+Some examples of geometry types are:
+
+```
+cart3<world>.point
+polar<model>.vector
+cart2<world>.transformation<clip>
+```
+
+To quickly summarize these types and the intuition of the data structure that might match the types:
+
+```
+// 3-dimensional cartesian point in the world frame
+// probably represented by a 3-tuple or array
+cart3<world>.point
+
+// polar vector in the model frame
+// polar coordinates are 2-dimensional, so probably represented by a 2-tuple
+polar<model>.vector
+
+// 2-dimensional cartesian transformation in the world frame to the clip frame
+// this can be read as a map from world to clip
+cart2<world>.transformation<clip>
+```
+
+If you aren't familiar with `model`, `world`, or `clip` frames, they are not necessary to understand for this article (if you'd like to read more, I'd recommend the [OpenGL introduction to coordinate systems](https://learnopengl.com/Getting-started/Coordinate-Systems)).  Similarly, no need to recall exactly how cartesian and polar coordinates work, though it is important to note that the dimension of a coordinate scheme does matter (2-dimensional has two pieces of information, such as `x` and `y` while 3-dimensional adds another).  I will speak more about the geometric objects `point`, `vector`, and `transformation` in the next part of this post.
 
 Why we believe this syntax to be a reasonable choice somewhat off-topic from this post; if you're interested in exploring this in excessive detail, consider reading [our paper](https://dl.acm.org/doi/10.1145/3428241) instead.  What I will instead be focusing on in this post is describing what we needed to do to make this sort of syntax a reality (and what steps were useful for exploring choice of syntax and programs as a whole).
 
