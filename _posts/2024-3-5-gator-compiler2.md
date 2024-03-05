@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "Building the Gator Compiler [3/4]"
+title:  "Building the Gator Compiler [2/3]"
 categories: gator
+hidden: true
 ---
 
 ## Compiler Structure

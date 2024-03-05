@@ -10,8 +10,10 @@ title: Blog
 
 <ul>
   {% for post in site.posts %}
-    <li>
-      <a href="/~dgeisler{{ post.url }}">{{ post.title }}</a>
-    </li>
+    {% if post.hidden == null or post.hidden == false %}
+      <li>
+        <a href="/~dgeisler{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {% endif %}
   {% endfor %}
 </ul>

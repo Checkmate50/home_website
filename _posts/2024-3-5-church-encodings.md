@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Church Encodings"
+categories: church
+hidden: true
+---
+
 ## A Concrete Look at Lambda Calculus
 
 Lambda calculus can seem to be a theoretical (and perhaps intimidating) construction, only useful for academic study and confusing hapless students.  In this post, I would like to explore a much more direct look at doing computation with the lambda calculus.
